@@ -90,7 +90,9 @@
     margin-right: 60px;
 }
 .table_box{
-    font-size:18px;
+    table-layout: fixed;
+    font-size:15px;
+    width: 100%;
 }
 
 /* RESIZE FOR SMALLER SCREEN                RESIZE FOR SMALLER SCREEN */
@@ -191,7 +193,7 @@
             border-bottom-style:inset;
         }
         .table_box{
-            font-size: 8px;
+            font-size: 10px;
         }
     
       }
@@ -216,11 +218,6 @@
     background-color: seashell;
     color: black;
     margin: 15px;
-
-
-
-
-
 }
 .img_p2{
     width: 100%;
