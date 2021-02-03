@@ -91,6 +91,7 @@
 }
 .table_box{
     table-layout: fixed;
+    text-align: right;
     font-size:15px;
     width: 100%;
 }
@@ -193,10 +194,18 @@
             border-bottom-style:inset;
         }
         .table_box{
-            font-size: 8px;
+            font-size: 10px;
         }
     
       }
+
+
+@media (max-width: 650px) {
+    .table_box{
+        font-size: 7px;
+    }
+
+}
 
 /*  (screen) size does not matter                   (screen) size does not matter */
 .body {
