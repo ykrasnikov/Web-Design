@@ -8,7 +8,7 @@
     <!--Bootstrap CSS                                                                                       Bootstrap CSS  -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="plots_style.css">
     <title>Latitude</title>
 </head>
 
@@ -16,7 +16,7 @@
     <div class="containter">
         <!-- navbar                                                                                          navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark ">
-            <a class="navbar-brand my_brand" href="./">Latitude</a>
+            <a class="navbar-brand my_brand" href="/index.html">Latitude</a>
             <!-- button toggler                                                                    toggler button-->
             <button class="navbar-toggler custom_toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,22 +26,22 @@
             <div class="collapse navbar-collapse my_menu" id="navbarMenu">
                 <ul class="d-flex align-items-end navbar-nav ml-auto">
                     <li class="nav-item dropdown  ">
-                        <a class="nav-link dropdown-toggle" href="pages/plots.html" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle" href="/pages/plots.html" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Plots
                         </a>
                         <div class="dropdown-menu " aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item my_dropdown " href="pages/temp.html">Max Temperature</a>
-                            <a class="dropdown-item my_dropdown" href="pages/humidity.html">Humidity</a>
-                            <a class="dropdown-item my_dropdown" href="pages/clouds.html">Cloudliness</a>
-                            <a class="dropdown-item my_dropdown" href="pages/wind.html">Wind Speed</a>
+                            <a class="dropdown-item my_dropdown " href="/pages/temp.html">Max Temperature</a>
+                            <a class="dropdown-item my_dropdown" href="/pages/humidity.html">Humidity</a>
+                            <a class="dropdown-item my_dropdown" href="/pages/clouds.html">Cloudiness</a>
+                            <a class="dropdown-item my_dropdown" href="/pages/wind.html">Wind Speed</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pages/comparison.html">Comparison </a>
+                        <a class="nav-link" href="/pages/comparison.html">Comparison </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pages/data.html">Data</a>
+                        <a class="nav-link" href="/pages/data.html">Data</a>
                     </li>
                 </ul>
             </div>
@@ -52,23 +52,21 @@
             <div class="col-lg-6 offset-md-1 col-md-12 r1_c1">
                 <section>
                     <!-- 1.1 column Header                                       1.1 column Header-->
-                    <h1 class="p1h1">Summary: Latitude vs. Weather</h1>
+                    <h1 class="p1h1">Humidity</h1>
                     <hr>
-                    <a  href="pages/temp.html ">
+                    <a  href="/pages/humidity.html ">
                         <figure class="fig1_p1">
-                            <img src="images/temp_lat.png" class="rounded img_p1 " alt="temp vs latitude">
+                            <img src="/images/hum_lat.png" class="rounded img_p1 " alt="hum vs latitude">
                             <figcaption>
-                            Fig.1 Temperature vs. Latitude
+                            Humidity vs. Latitude
                             </figcaption>
                         </figure>
                     <a>
-                    <p class="p1p1">"Latitude" project is looking into weather changes related to latitude change.
-                        Wether data was pulled from OpenWeatherMap API
-                        over 500 cities reandomly generated across the globe.
+                    <p class="p1p1">
+                        Observations:
+                        Humidity Latitude scatter  is evenly spread on latitude, with some dense areas. 
                     </p>
-                    <p class="p1p1"> Pyhton library Matplotlib was used to plot temperature, humidity, cloudeliness and
-                        wind speed vs. latitude.
-                        Purpose of this site is to provide analysis and data visualization of findings </p>
+
                 </section>
             </div>
             <!-- 1.2column                                                         1.2column-->
@@ -78,33 +76,33 @@
                     </h1>
                     <hr>
                     <!-- pictures for 1.2 columns                                            -->
-                    <a href="pages/temp.html">
-                        <figure class="fig_p2">
-                            <img src="images/temp_lat.png" class="rounded  img_p2" alt="temp vs latitude">
+                    <a href="/pages/temp.html">
+                        <figure class="fig_p2 fig_noborder">
+                            <img src="/images/temp_lat.png" class="rounded  img_p2" alt="temp vs latitude">
                             <figcaption>
                                 Temperature
                             </figcaption>
                         </figure>
                     </a>
-                    <a href="pages/humidity.html">
-                        <figure class="fig_p2">
-                            <img src="images/hum_lat.png" class="rounded  img_p2" alt="humidity vs latitude">
+                    <a href="/pages/humidity.html">
+                        <figure class="fig_p2 fig_border">
+                            <img src="/images/hum_lat.png" class="rounded  img_p2" alt="humidity vs latitude">
                             <figcaption>
                                 Humidity
                             </figcaption>
                         </figure>
                     </a>
-                    <a href="pages/clouds.html">
-                        <figure class="fig_p2">
-                            <img src="images/cloud_lat.png" class="rounded  img_p2" alt="cloudeliness vs latitude">
+                    <a href="/pages/clouds.html">
+                        <figure class="fig_p2 fig_noborder">
+                            <img src="/images/cloud_lat.png" class="rounded  img_p2" alt="cloudeiness vs latitude">
                             <figcaption>
-                                Cloudliness
+                                Cloudiness
                             </figcaption>
                         </figure>
                     </a>
-                    <a href="pages/wind.html">
-                        <figure class="fig_p2">
-                            <img src="images/wind_lat.png" class="rounded  img_p2" alt="wind vs latitude">
+                    <a href="/pages/wind.html">
+                        <figure class="fig_p2 fig_noborder">
+                            <img src="/images/wind_lat.png" class="rounded  img_p2" alt="wind vs latitude">
                             <figcaption>
                                 Wind Speed
                             </figcaption>

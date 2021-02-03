@@ -1,4 +1,3 @@
-
 .navbar{
     background-color:seashell;
     }  
@@ -43,10 +42,6 @@
     border-radius: .25rem;
 }
 
-.my_box{
-  width: 50%;
- 
-}
 
 .p1h1{
     color: teal;
@@ -71,20 +66,20 @@
     margin: 40px;
     color:#404040;
 }
-.fig1_p1 {
-    float:left;
-    width: 25%;
-    text-align:center;
-    font-size: large;
-    color: teal;
-    margin-top: 40px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-}
 
-.fig_p2 {
+.fig_l {
     float:left;
+    width: 41%;
+    text-align:center;
+    font-size: small;
+    color: teal;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.fig_r {
+    float:right;
     width: 41%;
     text-align:center;
     font-size: small;
@@ -92,8 +87,12 @@
     margin-top: 20px;
     margin-left: 10px;
     margin-bottom: 10px;
-    margin-right: 10px;
+    margin-right: 60px;
 }
+.table_box{
+    font-size:18px;
+}
+
 /* RESIZE FOR SMALLER SCREEN                RESIZE FOR SMALLER SCREEN */
 @media (max-width: 991px) {
         .navbar{
@@ -152,7 +151,7 @@
         }
         .p1h2{
             color: teal;
-            font-size: 20px;
+            font-size: 30px;
             font-weight: bold;
             margin-top: 30px;
             margin-bottom: 30px;
@@ -163,9 +162,9 @@
             margin: 20px;
             color:#404040;
         }
-        .fig1_p1 {
+        .fig_r {
             float:left;
-            width: 25%;
+            width: 100%;
             text-align:center;
             font-size: small;
             color: teal;
@@ -173,10 +172,13 @@
             margin-left: 10px;
             margin-bottom: 10px;
             margin-right: 10px;
+            border-color:lightgrey;
+            border-width: 2px;
+            border-bottom-style:inset;
         }
-        .fig_p2 {
+        .fig_l {
             float:left;
-            width: 21%;
+            width: 100%;
             text-align:center;
             font-size: small;
             color: teal;
@@ -184,6 +186,12 @@
             margin-left: 10px;
             margin-bottom: 10px;
             margin-right: 10px;
+            border-color:lightgrey;
+            border-width: 2px;
+            border-bottom-style:inset;
+        }
+        .table_box{
+            font-size: 8px;
         }
     
       }
@@ -208,17 +216,11 @@
     background-color: seashell;
     color: black;
     margin: 15px;
-}
-.r1_c2 {
-    background-color: seashell;
-    color: black;
-    margin: 15px;
-}
 
 
 
-.img_p1{
-    width: 100%;
+
+
 }
 .img_p2{
     width: 100%;

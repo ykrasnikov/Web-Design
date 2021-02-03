@@ -1,11 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comparison</title>
+
+    <!--Bootstrap CSS                                                                                       Bootstrap CSS  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style_comparison.css">
+    <title>Latitude</title>
 </head>
-<body>
-    Comparisons
+
+<body class="body">
+    <div class="containter">
+        <!-- navbar                                                                                          navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+            <a class="navbar-brand my_brand" href="/index.html">Latitude</a>
+            <!-- button toggler                                                                    toggler button-->
+            <button class="navbar-toggler custom_toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- navbar Menue                                                                        navbar Menue -->
+            <div class="collapse navbar-collapse my_menu" id="navbarMenu">
+                <ul class="d-flex align-items-end navbar-nav ml-auto">
+                    <li class="nav-item dropdown  ">
+                        <a class="nav-link dropdown-toggle" href="/pages/plots.html" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Plots
+                        </a>
+                        <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item my_dropdown " href="/pages/temp.html">Max Temperature</a>
+                            <a class="dropdown-item my_dropdown" href="/pages/humidity.html">Humidity</a>
+                            <a class="dropdown-item my_dropdown" href="/pages/clouds.html">Cloudiness</a>
+                            <a class="dropdown-item my_dropdown" href="/pages/wind.html">Wind Speed</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/comparison.html">Comparison </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/data.html">Data</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- 1st Row                                                                                1st  Row-->
+        <div class="row justify-content-center">
+            <!-- 1.1column                                                                   1.1column -->
+            <div class="col-lg-10 offset-md-1 col-md-12 r1_c1">
+                <section>
+                    <!-- 1.1 column Header                                       1.1 column Header-->
+                    <h1 class="p1h1">Summary: Latitude vs. Weather</h1>
+                    <hr>
+                    <p class="p1p1">Click any plot to get in-depth analysis.
+                    </p>
+                    <a  href="/pages/temp.html ">
+                        <figure class="fig_l">
+                            <h2 class="p1h2"> Max Temperature vs <br>Latitude</h2>
+                            <img src="/images/temp_lat.png" class="rounded img_p2 " alt="temp vs latitude">
+                            <figcaption>
+                            Temperature
+                            </figcaption>
+                        </figure>
+                    <a>
+                    <a href="/pages/humidity.html">
+                        <figure class="fig_r">
+                            <h2 class="p1h2" > Humidity vs<br> Latitude</h2>
+                            <img src="/images/hum_lat.png" class="rounded  img_p2" alt="humidity vs latitude">
+                            <figcaption>
+                                Humidity
+                            </figcaption>
+                        </figure>
+                    </a>
+                    <a href="/pages/clouds.html">
+                        <figure class="fig_l">
+                            <h2 class="p1h2" > Cloudiness vs <br>
+                                Latitude</h2>
+                            <img src="/images/cloud_lat.png" class="rounded  img_p2" alt="cloudeiness vs latitude">
+                            <figcaption>
+                                Cloudliness
+                            </figcaption>
+                        </figure>
+                    </a>
+                    <a href="/pages/wind.html">
+                        <figure class="fig_r">
+                            <h2 class="p1h2"> Wind Speed vs <br>Latitude</h2>
+                            <img src="/images/wind_lat.png" class="rounded  img_p2" alt="wind vs latitude">
+                            <figcaption>
+                                Wind Speed
+                            </figcaption>
+                        </figure>
+                    </a>
+
+                </section>
+            </div>
+
+        </div>
+    </div>
+    <!-- Separate Popper and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
+
 </body>
+
 </html>
