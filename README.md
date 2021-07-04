@@ -10,7 +10,7 @@ HTML and CSS homework
 
 _______________________
 
-# [Welcome to <ins>"Altitude"</ins> web site ](https://ykrasnikov.github.io/Web-Design-Challenge/)
+# [Welcome to <ins>"Altitude"</ins> web site ](https://ykrasnikov.github.io/Web-Design/)
 
 Code used for project:
 ### HTML 5
